@@ -1,0 +1,84 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-image: url(immagini-cc/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}   
+
+.container{
+    width: 1150px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    line-height: 8px;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 10%;
+}
+
+header, nav{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#title{
+    color: #00DD00;
+}
+
+
+
+
+.nav-main{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.nav-box{
+    background-color:#00DD00;
+    padding: 0.8em;
+}
+
+
+section{
+    margin-bottom: 30px;
+}
+
+.stato-carica-margin{
+    margin-bottom: 5px;
+}
+
+.battery-1, .battery-2, .battery-3{
+    height: 25px;
+    border-radius: 5px;
+}
+
+.battery-1{  
+    width: 37%;
+    background-color: #F5B453;
+}
+
+.battery-2{
+    width: 60%;
+    background-color: #1EC31E;
+}
+.battery-3{
+    width: 16%;
+    background-color: #BE4141;
+}
+
+section > span{
+     font-weight: 500 ;
+     font-size:25px ;
+}
+
